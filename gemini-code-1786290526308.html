@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فرح درمان | مرکز مشاوره رایگان و پک‌های درمانی نیوشا</title>
+    <meta name="description" content="فرح درمان؛ ارائه دهنده مشاوره تخصصی رایگان اصلاح مزاج، لاغری، کبد چرب و فروش مستقیم پک‌های درمانی نیوشا.">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="فرح درمان | مشاوره رایگان و فروش محصولات نیوشا">
+    <meta property="og:description" content="مرکز تخصصی مشاوره اصلاح مزاج، کاهش وزن و پک‌های درمانی گیاهی نیوشا">
+    <meta property="og:type" content="website">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Tahoma', 'Segoe UI', Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f8f5;
+            color: #2e4034;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1b4332, #2d6a4f);
+            color: #ffffff;
+            padding: 45px 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.4rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.15rem;
+            color: #d8f3dc;
+        }
+
+        nav {
+            background-color: #081c15;
+            padding: 12px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #b7e4c7;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .hero-banner {
+            background-color: #ffffff;
+            border-right: 6px solid #40916c;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 35px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .hero-banner h2 {
+            color: #1b4332;
+            margin-bottom: 12px;
+            font-size: 1.6rem;
+        }
+
+        .contact-box {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 25px;
+        }
+
+        .contact-btn {
+            display: inline-flex;
+            align-items: center;
+            padding: 14px 26px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 1.05rem;
+            transition: transform 0.2s, opacity 0.3s;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+        }
+
+        .contact-btn:hover {
+            opacity: 0.95;
+            transform: translateY(-2px);
+        }
+
+        .btn-phone {
+            background-color: #2d6a4f;
+        }
+
+        .btn-rubika {
+            background-color: #7b2cbf;
+        }
+
+        .btn-rubika-channel {
+            background-color: #9d4edd;
+        }
+
+        .section-title {
+            text-align: center;
+            margin: 45px 0 25px;
+            color: #1b4332;
+            font-size: 1.8rem;
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .product-card {
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 25px 20px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            transition: transform 0.2s;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .product-card h3 {
+            color: #2d6a4f;
+            margin-bottom: 12px;
+            font-size: 1.3rem;
+        }
+
+        .product-card p {
+            font-size: 0.95rem;
+            color: #555;
+            margin-bottom: 20px;
+            line-height: 1.7;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 20px;
+            background-color: #7b2cbf;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            border: none;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #5a189a;
+        }
+
+        footer {
+            background-color: #1b4332;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 50px;
+        }
+
+        footer p {
+            font-size: 0.95rem;
+            color: #b7e4c7;
+            margin-bottom: 8px;
+        }
+
+        footer a {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>فرح درمان</h1>
+        <p>مرکز تخصصی مشاوره رایگان و عرضه محصولات گیاهی و درمانی نیوشا</p>
+    </header>
+
+    <nav>
+        <a href="#about">درباره ما</a>
+        <a href="#products">محصولات</a>
+        <a href="#contact">تماس با ما</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="about" class="hero-banner">
+            <h2>به سایت فرح درمان خوش آمدید</h2>
+            <p>ما در فرح درمان با بهره‌گیری از دمنوش‌ها و پک‌های درمانی گیاهی نیوشا، در مسیر سلامتی، اصلاح مزاج، لاغری و بهبود بیماری‌ها همراه شما هستیم. برای دریافت مشاوره تخصصی رایگان می‌توانید مستقیماً از طریق تلفن یا پیام‌رسان روبیکا با ما در ارتباط باشید.</p>
+            
+            <div class="contact-box">
+                <a href="tel:09197574091" class="contact-btn btn-phone">📞 تماس مستقیم: ۰۹۱۹۷۵۷۴۰۹۱</a>
+                <a href="https://rubika.ir/Ff7574091" target="_blank" class="contact-btn btn-rubika">💬 پیوی روبیکا: Ff7574091@</a>
+                <a href="https://rubika.ir/caffesargarmi" target="_blank" class="contact-btn btn-rubika-channel">📢 کانال روبیکا: caffesargarmi@</a>
+            </div>
+        </section>
+
+        <h2 id="products" class="section-title">پک‌های درمانی و پرفروش نیوشا</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <div>
+                    <h3>پک لاغری و کاهش وزن</h3>
+                    <p>ترکیب دمنوش‌های چربی‌سوز و تسریع‌کننده متابولیسم بدن جهت کاهش وزن طبیعی.</p>
+                </div>
+                <a href="https://rubika.ir/Ff7574091" target="_blank" class="btn">💬 مشاوره و سفارش در روبیکا</a>
+            </div>
+            <div class="product-card">
+                <div>
+                    <h3>پک اصلاح مزاج و پاکسازی</h3>
+                    <p>کمک به دفع سموم بدن، بهبود عملکرد کبد و تنظیم مزاج‌های چهارگانه.</p>
+                </div>
+                <a href="https://rubika.ir/Ff7574091" target="_blank" class="btn">💬 مشاوره و سفارش در روبیکا</a>
+            </div>
+            <div class="product-card">
+                <div>
+                    <h3>پک پوست و مو</h3>
+                    <p>دمنوش‌های گیاهی مؤثر در روشن‌شدن پوست، کاهش جوش و تقویت ریشه مو.</p>
+                </div>
+                <a href="https://rubika.ir/Ff7574091" target="_blank" class="btn">💬 مشاوره و سفارش در روبیکا</a>
+            </div>
+            <div class="product-card">
+                <div>
+                    <h3>پک آرامش و خواب راحت</h3>
+                    <p>ترکیبات آرام‌بخش اعصاب، کاهش‌دهنده استرس و بهبود کیفیت خواب شبانه.</p>
+                </div>
+                <a href="https://rubika.ir/Ff7574091" target="_blank" class="btn">💬 مشاوره و سفارش در روبیکا</a>
+            </div>
+        </div>
+
+    </div>
+
+    <footer id="contact">
+        <p>جهت ارتباط مستقیم و دریافت مشاوره سریع با ما در تماس باشید:</p>
+        <p>شماره تماس: <a href="tel:09197574091">۰۹۱۹۷۵۷۴۰۹۱</a> | آیدی پیام در روبیکا: <a href="https://rubika.ir/Ff7574091" target="_blank">Ff7574091@</a> | کانال روبیکا: <a href="https://rubika.ir/caffesargarmi" target="_blank">caffesargarmi@</a></p>
+        <p style="margin-top: 15px; font-size: 0.85rem; color: #85d8a1;">کلیه حقوق برای مجموعه فرح درمان محفوظ است © ۱۴۰۵</p>
+    </footer>
+
+</body>
+</html>
